@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{233803C5-1CE3-4274-B4D9-B5ED6A3C55A7}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,8 +18,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirement
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{69A4F18D-A751-48AC-969E-F3527FA3F21D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Domain", "Core\MovieApi.Domain\MovieApi.Domain.csproj", "{C13AEF88-FF51-4926-9C69-ADD09BA7A72B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C13AEF88-FF51-4926-9C69-ADD09BA7A72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13AEF88-FF51-4926-9C69-ADD09BA7A72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13AEF88-FF51-4926-9C69-ADD09BA7A72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13AEF88-FF51-4926-9C69-ADD09BA7A72B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C13AEF88-FF51-4926-9C69-ADD09BA7A72B} = {B3A09368-EE4A-4CE2-A61B-28CF43455C8C}
 	EndGlobalSection
 EndGlobal
