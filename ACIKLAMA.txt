@@ -1,3 +1,16 @@
 
 kaldým:
-4. video
+7. video
+
+
+--kur
+MovieApi.Persistence:
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+MovieApi.WebApi:
+Microsoft.EntityFrameworkCore.Design
+
+- migration yapabilmek için startup olan projeye, context sýnýfýnýn olduðu proje referans edilmelidir.
